@@ -1,6 +1,6 @@
 # LeetCode_Python
 
-In this Repositorie, I regularly uplode LeetCode problems that I have Solved.
+In this repository, I regularly upload LeetCode problems that I have solved.
 
 Feel free to use them if you need.
 
