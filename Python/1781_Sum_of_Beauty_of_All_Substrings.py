@@ -10,8 +10,7 @@ class Solution:
         for i in range(n):
             for j in range(i + 1, n + 1):
                 temp = s[i:j]
-                temp_l = list(Counter(temp).items())
-                temp_l.sort(key = lambda x:x[1], reverse = True)
-                total += temp_l[0][1] - temp_l[-1][1]
+                temp_l = Counter(temp).values()
+                total += max(temp_l) - min(temp_l)
         
         return total
